@@ -1,0 +1,41 @@
+@charset "UTF8";
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+a{
+    text-decoration: none;
+}
+
+.box{
+    font-size: 20px;
+    color: white;
+    height: 250px;
+    width: 350px;
+    border-radius: 10px;
+    background: #191919;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    width: 150px;
+}
+
+button{
+    height: 30px;
+    width: 50px;
+    background: white;
+    border-radius: 5px;
+    color:blue;
+    font-weight: 600;
+}
