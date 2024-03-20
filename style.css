@@ -1,6 +1,8 @@
 @charset "UTF8";
 
 body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoH0y9gM3NMNX_OxWMk5IfyDUtqGPiyv6ofA&usqp=CAU);
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,9 +35,9 @@ a{
 
 button{
     height: 30px;
-    width: 50px;
+    width: 100px;
     background: white;
     border-radius: 5px;
-    color:blue;
+    color:rgb(255, 0, 0);
     font-weight: 600;
 }
